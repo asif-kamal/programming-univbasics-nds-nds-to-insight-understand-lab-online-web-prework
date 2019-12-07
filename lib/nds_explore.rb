@@ -9,7 +9,7 @@ end
 def print_first_directors_movie_titles
 
 row_index = 0
-  element_index = 1
+  element_index = 0
     inner_index = 0
     binding.pry
     while inner_index < directors_database[row_index][element_index][inner_index] do
