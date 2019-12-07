@@ -10,10 +10,9 @@ def print_first_directors_movie_titles
 
 
   element_index = 0
-    inner_index = 0
-    binding.pry
-    while inner_index < directors_database[0][:movies][0][:title] do
+    #binding.pry
+    while inner_index < directors_database[0][:movies][element_index][:title] do
       puts "#{directors_database[row_index][element_index][inner_index]} \n"
-      inner_index += 1
+      element_index += 1
     end
 end
